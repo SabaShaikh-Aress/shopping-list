@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Store" max_length="40" name="x_418460_shopping_store" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="2" default="Test" display="true" label="Store name" max_length="40" name="store_name" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Bafana's" value="bafanas"/>
+                <element inactive_on_update="false" label="Maheshwari's" value="maheshwaris"/>
+            </choice>
+        </element>
+    </element>
+</database>
